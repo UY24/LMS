@@ -1,0 +1,52 @@
+.course-container {
+    background-image: url("../images/bkg-img.jpg");
+    display: flex;
+    height: 100vh;
+}
+
+.course-page {
+    width: 50%;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 158px;
+    padding: 20px;
+    background-color: #EEE2DE;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lecture-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .lecture-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #dfcfc1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    margin: 10px;
+  }
+  
+  .lecture-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .lecture-card button {
+    padding: 8px 16px;
+    background-color: #9985b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .lecture-card button:hover {
+    background-color: #7550a5;
+  }
+  
